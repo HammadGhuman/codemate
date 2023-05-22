@@ -21,7 +21,7 @@ const ServiceCard = ({ AnimationData, heading,text,color }: Props) => {
         <p className="max-w-lg">
     {text}
         </p>
-        <div className="grid grid-flow-row grid-cols-3 max-w-sm gap-3">
+        <div className="grid grid-flow-row grid-cols-2 lg:grid-cols-3 max-w-sm gap-3">
           <TechStackButton techName="ReactJS" />
           <TechStackButton techName="NodeJS" />
           <TechStackButton techName="TailwindCss" />
