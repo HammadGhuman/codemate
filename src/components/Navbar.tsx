@@ -22,7 +22,7 @@ export default function Navbar({open, navbar, setOpen}: Props) {
                 {/* Logo Section */}
                 <div
                     className="flex lg:flex-row justify-between w-full lg:w-auto items-center space-x-3 flex-row-reverse">
-                    <div className="absolute top-0 lg:static -left-10 lg:left-0">
+                    <div className="absolute top-0 lg:static -left-8 lg:left-0">
                         <Image width={170} height={170} src={logoMob} alt="logo"/>
                     </div>
                     <div className="h-[24px] w-[24px]" onClick={() => setOpen(!open)}>

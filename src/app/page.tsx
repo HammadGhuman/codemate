@@ -34,7 +34,7 @@ export default function page() {
     {/* <main className="h-screen md:bg-hero-pattern-desktop bg-hero-pattern-mobile bg-no-repeat bg-cover"> */}
     <main className="min-h-screen bg-gradient-to-l  from-[#DF4848] to-[#4400a6]">
       <Navbar open={open} setOpen={setOpen} navbar={navbar} setNavbar={setNavbar}/>
-      <div className='flex items-center justify-center px-4 lg:flex-row  flex-col'>p
+      <div className='flex items-center justify-center px-4 lg:flex-row  flex-col'>
         {!open && (<div className='flex flex-col justify-start items-start text-red-950 mt-20  '>
         <p className="lg:text-6xl text-3xl font-bold max-w-3xl text-start text-white lg:max-w-[700px]">We are a <span className="capitalize text-white underline decoration-primary decoration-4 underline-offset-4"> customer-first</span> software development team offering quality solutions in best value</p>
         {/* <h1 className='text-2xl text-white font-bold outline hover:outline-none outline-2 mt-10 hover:bg-[#da4848] outline-white rounded-full px-5 py-1'>Contact Us</h1> */}
