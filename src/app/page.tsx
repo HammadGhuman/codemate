@@ -5,11 +5,11 @@ import About from '@/components/About';
 import Services from '@/components/Services';
 import ContactUs from '@/components/ContactUs';
 import { useState,useEffect } from 'react';
-import Project3 from '@/components/Project3';
 import Recommendation from '@/components/Recommendation';
 import Lottie,{LottieRefCurrentProps} from 'lottie-react';
 import AnimationData from '../../public/webdevAnimationData.json';
 import Story from '@/components/Story';
+import {Link} from 'react-scroll';
 
 export default function page() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -38,7 +38,12 @@ export default function page() {
         {!open && (<div className='flex flex-col justify-start items-start text-red-950 mt-20  '>
         <p className="lg:text-6xl text-3xl font-bold max-w-3xl text-start text-white lg:max-w-[700px]">We are a <span className="capitalize text-white underline decoration-primary decoration-4 underline-offset-4"> customer-first</span> software development team offering quality solutions in best value</p>
         {/* <h1 className='text-2xl text-white font-bold outline hover:outline-none outline-2 mt-10 hover:bg-[#da4848] outline-white rounded-full px-5 py-1'>Contact Us</h1> */}
-       <button className="text-xl px-8 py-3 mb-6 hover:bg-black hover:text-white hover:outline-none outline text-white outline-white rounded-3xl mt-16 transition-colors duration-300">Book a Consultation</button>
+       <Link   activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500} className="text-xl px-8 py-3 mb-6 hover:bg-black hover:text-white hover:outline-none outline text-white outline-white rounded-3xl mt-16 transition-colors duration-300">Book a Consultation</Link>
       </div>)}
       <div className='lg:max-w-[500px] max-w-[300px]'>
         <Lottie animationData={AnimationData}/>

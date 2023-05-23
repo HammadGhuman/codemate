@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import Pic1 from "../../public/projectPic1.jpeg";
-import Pic2 from "../../public/projectPic2.jpeg";
-import Pic3 from "../../public/projectPic3.jpeg";
+// import Pic2 from "../../public/projectPic2.jpeg";
+// import Pic3 from "../../public/projectPic3.jpeg";
 import ProjectCard from "./ProjectCard";
 type Props = {};
 

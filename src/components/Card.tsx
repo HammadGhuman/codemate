@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 type Props = {
     cardBg:any,
     Word1:string,

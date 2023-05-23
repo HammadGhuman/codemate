@@ -1,7 +1,7 @@
 import React from 'react';
 import cardBg from '../../public/understand.svg';
 import communicate from '../../public/communicate.svg';
-import deliver from '../../public/deliver.svg';
+import deliver from '../../public/deliver.svg'
 import Card from './Card';
 import { motion, AnimatePresence } from 'framer-motion';
 

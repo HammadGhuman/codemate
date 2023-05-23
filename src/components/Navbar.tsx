@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import React, {Dispatch, useState} from "react";
+import React, {Dispatch} from "react";
 import logoMob from "../../public/logoMob.png";
 import Hamburger from "../../public/hamburger.png";
 import Close from "../../public/Close.png";
-import {Link, animateScroll as scroll} from "react-scroll";
+import {Link} from "react-scroll";
 
 type Props = {
     open: boolean,

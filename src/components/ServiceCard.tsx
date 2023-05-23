@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-import bg from "../../public/Serviceblob.svg";
 import TechStackButton from "./TechStackButton";
 import Lottie from 'lottie-react';
 type Props = {

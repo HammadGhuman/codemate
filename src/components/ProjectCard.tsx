@@ -1,6 +1,6 @@
 import React from 'react'
-import TypeScript from '../../public/typescript.png';
-import NextJS from '../../public/nextjs-icon.svg';
+// import TypeScript from '../../public/typescript.png';
+// import NextJS from '../../public/nextjs-icon.svg';
 import Image, { StaticImageData } from 'next/image'
 import TypeLogo from '../../public/typescript.png';
 type Props = {
