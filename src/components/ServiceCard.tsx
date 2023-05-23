@@ -14,7 +14,7 @@ const ServiceCard = ({ AnimationData, heading,text,color,techName }: Props) => {
   console.log(`bg-${color}`)
   return (
 
-    <div className={`flex flex-col ${heading === 'App Development' ? 'lg:flex-row-reverse' : 'lg:flex-row'} justify-evenly lg:mx-28 my-5 py-10 ${color} hover:bg-gradient-to-tr hover:from-primary hover:to-[#4400a6] transition-all duration-300 rounded-lg`}>
+    <div className={`flex flex-col ${heading === 'Mobile App Development' ? 'lg:flex-row-reverse' : 'lg:flex-row'} justify-evenly lg:mx-28 my-5 py-10 ${color} hover:bg-gradient-to-tr hover:from-primary hover:to-[#4400a6] transition-all duration-300 rounded-lg`}>
       <div className="flex flex-col space-y-10 lg:pl-10 px-4 text-white">
         <h1 className="text-4xl">{heading}</h1>
         <p className="max-w-lg">
