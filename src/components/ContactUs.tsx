@@ -10,18 +10,11 @@ const ContactUs = (props: Props) => {
       <div className='flex flex-col lg:min-w-[800px]  bg-contactUsLeft bg-cover bg-no-repeat px-10 pt-10'>
         <h1 className='text-start text-5xl font-bold'>Contact US</h1>
         <div className='mt-10 text-xl flex flex-col space-y-10'>
-          <p className='font-light font-mono max-w-[600px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas eveniet numquam beatae magnam architecto tempore ipsa sunt itaque neque molestiae fuga error, aliquam consectetur voluptate nesciunt repellendus reiciendis aperiam non impedit ducimus voluptatum debitis laboriosam, aspernatur in. Atque ab quis excepturi itaque magni rerum dicta sapiente aliquid adipisci, accusantium dolorem?</p>
+          <p className='font-light font-mono max-w-[600px]'>We're here to listen and provide exceptional support for all your software development needs. Have questions or need assistance? Our dedicated team is just a message away. Reach out to us today and experience our customer-first services first-hand as we help you bring your vision to life!</p>
           <div>
-          <p className='text-xl'>Email US <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>codemate@gmail.com</span></p>
+          <p className='text-xl'>Email US <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>manan@codematetechnologies.com</span></p>
           <p className='text-2xl font-bold'>Or</p>
-          <p className='text-xl'>Call Us on <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>+9233312389022</span></p>
-          </div>
-          <div className='flex flex-row space-x-3'>
-            <Image src={hr} alt="HrImage" width={80} height={80} className='rounded-full'></Image>
-            <div className="flex flex-col space-y-0 items-start justify-center">
-              <h1 className='text-xl font-bold'>Hr Team Lead</h1>
-              <p className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>hr@codemate.hr.com</p>
-            </div>
+          <p className='text-xl'>Call Us on <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>+92-345-4730071</span></p>
           </div>
         </div>
       </div>
