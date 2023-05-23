@@ -14,8 +14,8 @@ function Services({}: Props) {
     });
   return (
     <div id="services" className='relative overflow-y-hidden'>  
-        <ServiceCard key={1} color={'bg-primary'} heading={"Web Development"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde culpa vel fugit accusamus voluptate ab fugiat, nemo molestias explicabo!"} AnimationData={WebAnimation}/>
-        <ServiceCard key={2} color={'bg-secondary'}heading={"App Development"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde culpa vel fugit accusamus voluptate ab fugiat, nemo molestias explicabo!"} AnimationData={Mobile}/>
+        <ServiceCard key={1} color={'bg-primary'} heading={"Web Development"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde culpa vel fugit accusamus voluptate ab fugiat, nemo molestias explicabo!"} techName={["React Js","Node Js","Typescript","TailwindCss"]} AnimationData={WebAnimation}/>
+        <ServiceCard key={2} color={'bg-secondary'}heading={"App Development"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde culpa vel fugit accusamus voluptate ab fugiat, nemo molestias explicabo!"} techName={["Flutter","Node Js","Typescript","Firebase"]} AnimationData={Mobile}/>
         {/* <ServiceCard key={3} color={'bg-black'}heading={"Web Development"} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde culpa vel fugit accusamus voluptate ab fugiat, nemo molestias explicabo!"} AnimationData={Mobile}/> */}
     </div>
   )
