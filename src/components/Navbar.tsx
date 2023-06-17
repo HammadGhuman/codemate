@@ -25,7 +25,7 @@ export default function Navbar({ open, navbar, setOpen }: Props) {
           navbar
             ? "transition-colors duration-300 lg:bg-secondary"
             : "bg-transparent"
-        } lg:flex-row flex-col lg:items-center items-start justify-between text-black py-3`}
+        } lg:flex-row flex-col lg:items-center items-start justify-between text-black py-1`}
       >
         {/* Logo Section */}
         <div className="flex lg:flex-row justify-between w-full lg:w-auto items-center space-x-3 flex-row-reverse">

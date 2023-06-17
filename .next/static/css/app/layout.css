@@ -974,6 +974,15 @@ html {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.mt-40 {
+  margin-top: 10rem;
+}
+.mt-48 {
+  margin-top: 12rem;
+}
+.mt-56 {
+  margin-top: 14rem;
+}
 .block {
   display: block;
 }
@@ -1007,6 +1016,12 @@ html {
 .h-screen {
   height: 100vh;
 }
+.h-\[90\%\] {
+  height: 90%;
+}
+.h-\[50\%\] {
+  height: 50%;
+}
 .max-h-\[300px\] {
   max-height: 300px;
 }
@@ -1037,8 +1052,8 @@ html {
 .max-w-\[300px\] {
   max-width: 300px;
 }
-.max-w-\[600px\] {
-  max-width: 600px;
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 .max-w-lg {
   max-width: 32rem;
@@ -1048,9 +1063,6 @@ html {
 }
 .max-w-xl {
   max-width: 36rem;
-}
-.max-w-\[400px\] {
-  max-width: 400px;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1135,11 +1147,6 @@ html {
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
 .self-end {
   align-self: flex-end;
 }
@@ -1196,20 +1203,12 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-transparent {
   background-color: transparent;
 }
-.bg-red-100 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-contactUsLeft {
   background-image: url('/contactUsMob.svg');
@@ -1240,13 +1239,13 @@ html {
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -1291,10 +1290,6 @@ html {
 .py-\[10vh\] {
   padding-top: 10vh;
   padding-bottom: 10vh;
-}
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -1447,14 +1442,6 @@ html {
 }
 .duration-300 {
   transition-duration: 300ms;
-}
-.placeholder\:text-slate-300::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-.placeholder\:text-slate-300::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 .placeholder\:text-slate-500::-moz-placeholder {
   --tw-text-opacity: 1;
@@ -1617,18 +1604,6 @@ html {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .lg\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(4rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .lg\:space-y-12 > :not([hidden]) ~ :not([hidden]) {

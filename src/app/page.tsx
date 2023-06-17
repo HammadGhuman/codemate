@@ -42,9 +42,9 @@ export default function page() {
           navbar={navbar}
           setNavbar={setNavbar}
         />
-        <div className="flex items-center justify-center px-4 lg:flex-row  flex-col">
+        <div className="flex items-center justify-center px-4  lg:flex-row  flex-col">
           {!open && (
-            <div className="flex flex-col justify-start items-start text-red-950 mt-20  ">
+            <div className="flex flex-col justify-start items-start text-red-950 mt-56  ">
               <p className="lg:text-6xl text-3xl font-bold max-w-3xl text-start text-white lg:max-w-[700px]">
                 We are a{" "}
                 <span className="capitalize text-white underline decoration-primary decoration-4 underline-offset-4">
