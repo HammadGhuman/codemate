@@ -29,14 +29,14 @@ const ServiceCard = ({
       <div className="flex flex-col space-y-10 lg:pl-10 px-4 text-white">
         <h1 className="text-4xl">{heading}</h1>
         <p className="max-w-lg">{text}</p>
-        <div className="grid grid-flow-row grid-cols-2 lg:grid-cols-3 max-w-sm gap-3">
+        <div className="grid grid-flow-row grid-cols-2 lg:grid-cols-3 max-w-full gap-3">
           {techName.map((item) => (
             <TechStackButton key={item} techName={item} />
           ))}
         </div>
       </div>
       <Lottie
-        className="max-w-[300px] max-h-[300px] self-center"
+        className="max-w-[300px] max-h-[300px] mt-10 lg:mt-0 self-center"
         animationData={AnimationData}
       />
     </div>

@@ -23,7 +23,7 @@ export default function Navbar({ open, navbar, setOpen }: Props) {
       <nav
         className={`px-8 flex  ${
           navbar
-            ? "transition-colors duration-300 lg:bg-secondary"
+            ? "transition-colors duration-300 lg:bg-gradient-to-l  from-[#DF4848] to-[#4400a6]"
             : "bg-transparent"
         } lg:flex-row flex-col lg:items-center items-start justify-between text-black py-1`}
       >

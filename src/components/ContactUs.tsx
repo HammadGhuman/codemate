@@ -10,7 +10,7 @@ const ContactUs = (props: Props) => {
       className="flex lg:flex-row flex-col font-mono  overflow-y-hidden text-gray-100"
     >
       {/* Left Card */}
-      <div className="flex flex-col lg:min-w-[800px]  bg-contactUsLeft bg-cover bg-no-repeat px-20 pt-10">
+      <div className="flex flex-col lg:min-w-[800px]  bg-contactUsLeft bg-cover bg-no-repeat px-8 lg:px-20 pt-10 pb-10 lg:pb-0">
         <h1 className="text-start text-5xl font-bold">Contact Us</h1>
         <div className="mt-10 text-xl flex flex-col space-y-10">
           <p className="font-light font-mono max-w-[400px]">

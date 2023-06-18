@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import ServiceCard from "./ServiceCard";
 import WebAnimation from "../../public/webdevAnimationData.json";
 import Mobile from "../../public/appdevAnimationData.json";
+import UiUX from "../../public/ui-ux.json";
 
 type Props = {};
 
@@ -36,13 +37,13 @@ function Services({}: Props) {
       />
       <ServiceCard
         key={3}
-        color={"bg-black"}
-        heading={"Ui/Ux Design"}
+        color={"bg-[#BD0072]"}
+        heading={"UI/UX Design"}
         text={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id unde culpa vel fugit accusamus voluptate ab fugiat, nemo molestias explicabo!"
+          "Crafting exceptional digital experiences through intuitive designs and seamless user interactions that transform ideas into captivating realities."
         }
-        AnimationData={Mobile}
-        techName={["Flutter", "Node Js", "Typescript", "Firebase"]}
+        AnimationData={UiUX}
+        techName={["Figma", "Adobe Illustrator", "Adobe Photoshop"]}
       />
     </div>
   );
