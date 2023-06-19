@@ -20,7 +20,7 @@ function Services({}: Props) {
         color={"bg-primary"}
         heading={"Web Development"}
         text={
-          "Transforming ideas into powerful online experiences with expert web development services."
+          "Transforming ideas into powerful online experiences with expert web development services"
         }
         techName={["React Js", "Node Js", "Typescript", "TailwindCss"]}
         AnimationData={WebAnimation}
@@ -40,7 +40,7 @@ function Services({}: Props) {
         color={"bg-[#BD0072]"}
         heading={"UI/UX Design"}
         text={
-          "Crafting exceptional digital experiences through intuitive designs and seamless user interactions that transform ideas into captivating realities."
+          "Crafting exceptional digital experiences through intuitive designs and seamless user interactions that transform ideas into captivating realities"
         }
         AnimationData={UiUX}
         techName={["Figma", "Adobe Illustrator", "Adobe Photoshop"]}
