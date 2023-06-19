@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import hr from "../../public/hr.webp";
+import Input from "./Input";
 type Props = {};
 
 const ContactUs = (props: Props) => {
@@ -48,30 +49,15 @@ const ContactUs = (props: Props) => {
             method="POST"
             className="flex flex-col px-5 lg:space-y-12 space-y-10 items-start w-full bg-white lg:px-20 py-10  shadow-xl"
           >
-            <input
+            <Input type="text" placeholder="Name" name="name" />
+            <Input type="email" placeholder="Email" name="name" />
+            <Input type="number" placeholder="Contact Number" name="number" />
+            <Input
               type="text"
-              className="outline-none rounded-lg text-xl py-3 px-3 bg-slate-100 w-full text-primary placeholder:text-slate-500"
-              placeholder="Name"
-              name="name"
-            />
-            <input
-              type="text"
-              className="outline-none rounded-lg text-xl py-3 px-3 bg-slate-100 w-full text-primary placeholder:text-slate-500"
-              placeholder="Email"
-              name="email"
-            />
-            <input
-              type="text"
-              className="outline-none rounded-lg text-xl py-3 px-3 bg-slate-100 w-full text-primary placeholder:text-slate-500"
-              placeholder="Contact Number"
-              name="number"
-            />
-            <input
-              type="text"
-              className="outline-none rounded-lg text-xl py-3 px-3 bg-slate-100 w-full text-primary placeholder:text-slate-500"
               placeholder="Project Description"
               name="projectDes"
             />
+
             <button
               type="submit"
               className="ml-auto px-12 rounded-lg hover:bg-primary text-xl font-semibold py-3 text-black outline outline-primary transition-colors duration-300"

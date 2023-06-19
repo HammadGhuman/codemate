@@ -10,6 +10,7 @@ import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import AnimationData from "../../public/webdevAnimationData.json";
 import Story from "@/components/Story";
 import { Link } from "react-scroll";
+import { SCROLL_Y_NUMBER } from "@/utils/constant";
 
 export default function page() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -17,7 +18,7 @@ export default function page() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [navbar, setNavbar] = useState(false);
   const changeNav = () => {
-    if (window.scrollY >= 1) {
+    if (window.scrollY >= SCROLL_Y_NUMBER) {
       setNavbar(true);
     } else {
       setNavbar(false);

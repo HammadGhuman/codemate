@@ -19,7 +19,6 @@ export default function Navbar({ open, navbar, setOpen }: Props) {
       className={`${
         true && "lg:fixed transition-all duration-300 lg:z-20 lg:w-full"
       }`}
-      // lg:bg-gradient-to-l  from-[#DF4848] to-[#4400a6]
     >
       <nav
         className={`px-8 flex  ${
